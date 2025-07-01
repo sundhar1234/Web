@@ -1,0 +1,82 @@
+body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f4f3ef;
+      color: #1d2b29;
+    }
+
+    .navbar-brand img {
+      height: 50px;
+    }
+
+    .nav-link {
+      font-weight: 600;
+      color: #333 !important;
+    }
+
+    .nav-link.active,
+    .nav-link:hover {
+      background-color: green;
+      color: #fff !important;
+      border-radius: 8px;
+      padding: 6px 16px;
+    }
+
+    .about-section {
+      padding: 80px 20px;
+    }
+
+    .about-section h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: #153e35;
+      margin-bottom: 20px;
+    }
+
+    .about-section p {
+      font-size: 1.1rem;
+      color: #444;
+      margin-bottom: 20px;
+    }
+    .about-img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+
+    .btn-learn {
+      background-color: green;
+      color: #fff;
+      padding: 10px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+      display: inline-block;
+    }
+
+    .btn-learn:hover {
+      background-color: green;
+      color: #fff;
+    }
+
+    @media (max-width: 767px) {
+      .about-section h1 {
+        font-size: 2rem;
+        text-align: center;
+      }
+
+      .about-section p,
+      .btn-learn {
+        text-align: center;
+        display: block;
+        margin: auto;
+      }
+    }
+    @media (max-width: 767px) {
+  .about-img {
+    margin-bottom: 30px;
+  }
+}
