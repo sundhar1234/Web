@@ -1,82 +1,54 @@
-body {
-      font-family: 'Inter', sans-serif;
-      background-color: #f4f3ef;
-      color: #1d2b29;
-    }
+.about-section {
+  background-color: #f8f9fa;
+  padding: 80px 15px;
+}
 
-    .navbar-brand img {
-      height: 50px;
-    }
+.about-subtitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #102a43;
+}
 
-    .nav-link {
-      font-weight: 600;
-      color: #333 !important;
-    }
-
-    .nav-link.active,
-    .nav-link:hover {
-      background-color: green;
-      color: #fff !important;
-      border-radius: 8px;
-      padding: 6px 16px;
-    }
-
-    .about-section {
-      padding: 80px 20px;
-    }
-
-    .about-section h1 {
-      font-size: 2.5rem;
-      font-weight: 800;
-      color: #153e35;
-      margin-bottom: 20px;
-    }
-
-    .about-section p {
-      font-size: 1.1rem;
-      color: #444;
-      margin-bottom: 20px;
-    }
-    .about-img {
+.image-wrapper img {
   width: 100%;
   height: auto;
   border-radius: 16px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   object-fit: cover;
 }
 
+.btn-learn {
+  background-color: #0b3d91;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+}
 
-    .btn-learn {
-      background-color: green;
-      color: #fff;
-      padding: 10px 24px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: 600;
-      transition: background 0.3s;
-      display: inline-block;
-    }
+.btn-learn:hover {
+  background-color: #08336d;
+}
 
-    .btn-learn:hover {
-      background-color: green;
-      color: #fff;
-    }
 
-    @media (max-width: 767px) {
-      .about-section h1 {
-        font-size: 2rem;
-        text-align: center;
-      }
+@media (max-width: 767px) {
+  .about-subtitle {
+    font-size: 2rem;
+    text-align: center;
+  }
 
-      .about-section p,
-      .btn-learn {
-        text-align: center;
-        display: block;
-        margin: auto;
-      }
-    }
-    @media (max-width: 767px) {
-  .about-img {
+  .btn-learn {
+    margin: auto;
+    display: block;
+  }
+
+  .image-wrapper {
+    text-align: center;
     margin-bottom: 30px;
   }
+
+  .image-wrapper img {
+    max-width: 90%;
+  }
 }
+ 
