@@ -1,11 +1,36 @@
 
-body {
-  padding-top: 80px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  transition: background-color 0.3s, color 0.3s;
+
+.navcolor {
+    background-color: #efeeeb;
+    z-index: 999;
+}
+.imgLogo {
+    height: 50px;
+}
+.navlist {
+    color: #000;
+    font-size: 25px;
+    font-weight: 600;
+}
+.navlist:hover {
+    color: #183e35;
+}
+.navlistbutton {
+    font-size: 25px;
+    color: black;
+    font-weight: 500;
+    padding: 6px 14px;
+    margin-top: 3px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.navlistbutton:hover {
+    color: #183e35;
+    border: 1px #183e35;
+    background-color: #cff47b;
 }
 
-section{
+section {
   padding: 60px 0;
 }
 
@@ -14,6 +39,7 @@ section{
   font-weight: 700;
   color: #198754;
   margin-bottom: 20px;
+  text-align: center;
   position: relative;
 }
 
@@ -51,6 +77,8 @@ section{
 .navbar .nav-link:hover::after {
   width: 100%;
 }
+
+
 .core-value-card {
   width: 140px;
   text-align: center;
@@ -77,26 +105,168 @@ section{
 .core-icon:hover {
   transform: scale(1.1);
 }
+.what-we-provide {
+  background-color: #fff;
+}
 
-.py-5.bg-light {
-  background-color: #f8f9fa; 
-}
-.section-title {
-  font-size: 2rem;
+.section-heading {
+  font-size: 2.5rem;
   font-weight: 700;
-  color: #116530; 
-  margin-bottom: 2rem;
-  text-align: center;
-  position: relative;
 }
-.section-title::after {
-  content: "";
-  display: block;
+
+.provide-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px 0;
+  border-bottom: 1px solid #ddd;
+  gap: 30px;
+}
+
+.provide-row:last-child {
+  border-bottom: none;
+}
+
+.provide-row .left {
+  flex: 1;
+  max-width: 80%;
+}
+
+.provide-row .left h5 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.provide-row .left h5 span {
+  font-weight: bold;
+  color: #000;
+  margin-right: 10px;
+}
+
+.provide-row .left p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.provide-row .right {
+  min-width: 60px;
+  height: 60px;
+  background-color: #f5fef0;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px #e4ffbf;
+}
+
+.provide-row .right img {
+  width: 32px;
+  height: auto;
+}
+
+
+.icon-box {
+  background-color: #f9fff0;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 0 20px #ccff78;
   width: 60px;
-  height: 3px;
-  background-color: #116530;
-  margin: 10px auto 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.icon-box img {
+  width: 32px;
+  height: auto;
+}
+.what-we-provide-section {
+  background: #fff;
+  padding: 60px 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #1d1d1d;
+}
+
+.service-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px 0;
+  border-bottom: 1px solid #eee;
+  gap: 20px;
+}
+
+.service-item.no-border {
+  border-bottom: none;
+}
+
+.service-left {
+  flex: 1;
+}
+
+.service-left h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #1c1c1c;
+}
+
+.service-left h3 span {
+  font-weight: 700;
+  margin-right: 10px;
+  font-size: 1.3rem;
+  color: #000;
+}
+
+.service-left p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.service-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-box {
+  background: #f3ffe2;
+  padding: 14px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(204, 255, 120, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-box img {
+  width: 30px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .service-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .service-right {
+    margin-top: 15px;
+  }
+}
+
+
 
 .work-card {
   background-color: #fff;
@@ -130,19 +300,45 @@ section{
   margin: 0;
 }
 
-
-
-
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 10px;
-  line-height: 1.2;
+.innovation-section {
+  background: radial-gradient(circle at 10% 80%, #1c2417, #0a0a0a);
+  color: #fff;
+  border-radius: 25px;
+  padding: 60px 30px;
+  margin: 60px auto;
+  max-width: 900px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
 
-p {
-  margin-bottom: 15px;
+.innovation-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
+.innovation-section p {
+  font-size: 1.05rem;
+  color: #ddd;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
 
+.btn-template {
+  background-color: #ccff78;
+  color: #000;
+  padding: 12px 26px;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-template:hover {
+  background-color: #b7f266;
+}
 @media (max-width: 767px) {
   .section-title {
     font-size: 1.5rem;
@@ -151,37 +347,63 @@ p {
   .core-value-card {
     width: 100px;
   }
+  
+  .provide-item {
+    flex-direction: column;
+    text-align: left;
+  }
 
   .icon-box {
-    width: 50px;
-    height: 50px;
+    margin-top: 20px;
+    align-self: flex-start;
+  }
+ .service-item {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  .bw-icon {
-    height: 48px;
+  .service-right {
+    margin-top: 15px;
   }
-} 
+  .work-card {
+    padding: 20px;
+  }
+
+  .work-card img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .work-card h5 {
+    font-size: 1.1rem;
+  }
+
+  .work-card p {
+    font-size: 0.92rem;
+  }
+
+  .innovation-section {
+    padding: 40px 20px;
+    margin: 40px 15px;
+  }
+
+  .innovation-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .innovation-section p {
+    font-size: 1rem;
+  }
+}
+
+
 [data-aos="fade-up"] {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
+
 [data-aos="fade-up"].aos-animate {
   opacity: 1;
   transform: translateY(0);
-}
-@media (max-width: 767px) {
-  .work-card {
-    padding: 20px;
-  }
-  .work-card img {
-    width: 70px;
-    height: 70px;
-  }
-  .work-card h5 {
-    font-size: 1.1rem;
-  }
-  .work-card p {
-    font-size: 0.92rem;
-  }
 }

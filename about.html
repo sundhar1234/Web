@@ -1,72 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About - Keyan Technologies</title>
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaiyen Technologies</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./query.css">
     <link rel="stylesheet" href="./contact.css">
     <link rel="stylesheet" href="./about.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-
 </head>
+
 <body>
+
+    <nav class="navbar navbar-expand-lg fixed-top navcolor p-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./images/keyan.png" alt="logo" class="imgLogo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-wrap w-100 gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link active navlist" href="#">Home</a>
+                        </li>
+                        <li class="nav-item bg-success">
+                            <a class="nav-link navlist" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navlist" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navlistbutton btn btn-dark " href="#">Contact </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+  <section class="who-we-are-section py-5">
+  <div class="container">
+    
   
-  <nav class="navbar navbar-expand-lg fixed-top navcolor bg-white shadow-sm">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">
-        <img src="./images/keyan.png" alt="logo" width="120" height="auto" />
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active fw-bold text-success" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link btn btn-dark text-white px-3 ms-2" href="#">Contact</a>
-          </li>
-        </ul>
+    <div class="mb-5 text-center">
+      <h2 class="fw-bold text-success">Who We Are</h2>
+      <p class="text-muted mt-3 mx-auto" style="max-width: 800px;">
+        We are a forward-thinking technology company committed to delivering innovative digital solutions that empower businesses across industries.
+        With a team of experienced professionals, we focus on driving transformation through cutting-edge technologies and customer-centric strategies.
+      </p>
+    </div>
+
+    
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        <img src="./images/A10.png" class="img-fluid rounded shadow" alt="Mission Vision Image">
+      </div>
+      <div class="col-md-6">
+        <h3 class="fw-bold text-success">Our Mission & Vision</h3>
+        <p class="mt-3"><strong>Mission and Vision</strong><br>
+          To enable organizations to achieve operational excellence and sustainable growth through advanced technological solutions.
+          To be a global leader in digital innovation, transforming challenges into opportunities with integrity, creativity, and impact.
+        </p>
+        <a href="#" class="btn btn-dark mt-3 px-4">Learn More</a>
       </div>
     </div>
-  </nav>
-  
 
-  <!-- Who We Are with Image -->
-  <section class="section">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6 mb-4 mb-md-0">
-          <img src="./images/A10.png" class="img-fluid rounded" alt="About Us Image" />
-        </div>
-        <div class="col-md-6">
-          <h2 class="section-title">Who We Are</h2>
-          <p>We are a forward-thinking technology company committed to delivering innovative digital solutions that empower businesses across industries. With a team of experienced professionals, we focus on driving transformation through cutting-edge technologies and customer-centric strategies.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Mission and Vision -->
-  <section class="section">
-    <div class="container">
-      <h2 class="section-title">Our Mission & Vision</h2>
-      <p><strong>Mission:</strong> To enable organizations to achieve operational excellence and sustainable growth through advanced technological solutions.</p>
-      <p><strong>Vision:</strong> To be a global leader in digital innovation, transforming challenges into opportunities with integrity, creativity, and impact.</p>
-    </div>
 
 
 
@@ -116,12 +134,62 @@
       </div>
     </marquee>
   </div>
+ <section class="what-we-provide-section">
+  <div class="container">
+    <h2 class="section-title">What We Provide</h2>
+
+    <!-- Item 1 -->
+    <div class="service-item">
+      <div class="service-left">
+        <h3><span>01</span> Comprehensive Digital Solutions for a Smarter Tomorrow</h3>
+        <p>
+          We offer a wide range of technology-driven services tailored to meet evolving business needs. From custom software development and cloud integration to AI-powered solutions and digital transformation consulting, our offerings are designed to accelerate growth, enhance efficiency, and ensure long-term success for our clients.
+        </p>
+      </div>
+      <div class="service-right">
+        <div class="icon-box">
+          <img src="https://img.icons8.com/ios-filled/50/layers.png" alt="icon" />
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="service-item">
+      <div class="service-left">
+        <h3><span>02</span> Driving Performance Through Data and Innovation</h3>
+        <p>
+          We help businesses scale strategically by optimizing operations, enhancing user experiences, and leveraging data to fuel continuous growth.
+        </p>
+      </div>
+      <div class="service-right">
+        <div class="icon-box">
+          <img src="https://img.icons8.com/ios-filled/50/edit-row.png" alt="icon" />
+        </div>
+      </div>
+    </div>
+
+    <div class="service-item no-border">
+      <div class="service-left">
+        <h3><span>03</span> Crafting Experiences That Resonate</h3>
+        <p>
+          Our creative team blends design thinking with brand strategy to deliver compelling visual identities, intuitive UI/UX, and cohesive storytelling.
+        </p>
+      </div>
+      <div class="service-right">
+        <div class="icon-box">
+          <img src="https://img.icons8.com/ios-filled/50/idea-sharing.png" alt="icon" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="py-5 bg-light">
   <div class="container">
     <h2 class="mb-5 fw-bold section-title" data-aos="fade-up">How We Work</h2>
     <div class="row g-4">
 
-      <!-- Leadership -->
+    
       <div class="col-md-6 col-lg-4" data-aos="fade-up">
         <div class="work-card">
           <img src="https://img.icons8.com/?size=100&id=102072&format=png&color=000000" alt="Leadership">
@@ -130,7 +198,7 @@
         </div>
       </div>
 
-      <!-- Growth Timeline -->
+      
       <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
         <div class="work-card">
           <img src="https://img.icons8.com/?size=100&id=m4ve9N6ivyiV&format=png&color=000000" alt="Growth Timeline">
@@ -139,7 +207,7 @@
         </div>
       </div>
 
-      <!-- Team Culture -->
+      
       <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
         <div class="work-card">
           <img src="https://img.icons8.com/fluency/80/conference-call.png" alt="Team Culture">
@@ -148,7 +216,7 @@
         </div>
       </div>
 
-      <!-- Tech Stack -->
+  
       <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
         <div class="work-card">
           <img src="https://img.icons8.com/fluency/80/source-code.png" alt="Tech Stack">
@@ -157,7 +225,7 @@
         </div>
       </div>
 
-      <!-- Global Presence -->
+      
       <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
         <div class="work-card">
           <img src=https://img.icons8.com/?size=100&id=2963&format=png&color=000000 alt="Global Presence">
@@ -166,7 +234,7 @@
         </div>
       </div>
 
-      <!-- Social Impact -->
+
       <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
         <div class="work-card">
           <img src=https://img.icons8.com/?size=100&id=AKcK3dM0nJ0T&format=png&color=000000 alt="Social Impact">
@@ -179,12 +247,14 @@
   </div>
 </section>
 
-      
-<!-- Stand Out with Innovation -->
-  <section class="section">
-    <div class="container">
-      <h2 class="section-title">Stand Out With Innovation</h2>
-      <p>We combine advanced technologies with forward-thinking strategies to deliver impactful, future-ready solutions. Our innovation-led approach empowers businesses to lead in a competitive digital landscape and unlock new growth opportunities.</p>
+<section class="innovation-section">
+    <div class="content">
+      <h1>Stand Out with Innovation</h1>
+      <p>
+        We combine advanced technologies with forward-thinking strategies to deliver impactful, future-ready solutions. <br />
+        Our innovation-led approach empowers businesses to lead in a competitive digital landscape and unlock new growth opportunities.
+      </p>
+      <a href="#" class="btn-template">Explore Solutions</a>
     </div>
   </section>
 
