@@ -11,31 +11,14 @@ body {
 }
 
 
-.contact-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: center;
-}
-
-.info-cards {
-  flex: 1;
-  min-width: 300px;
-  max-width: 500px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.card {
-  background: #fff;
+.cards-contact {
   border: 1px solid #eee;
   border-radius: 12px;
   padding: 25px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.03);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
 }
 
-.card .icon {
+.cards-contact .icon {
   background-color: #ccff78;
   width: 40px;
   height: 40px;
@@ -46,22 +29,30 @@ body {
   margin-bottom: 10px;
 }
 
-.card h3 {
+.cards-contact h3 {
   font-size: 18px;
   margin-bottom: 10px;
   color: #222;
+  font-weight: 600;
 }
 
-.card p {
+.cards-contact p {
   font-size: 14px;
   color: #555;
   line-height: 1.6;
+  font-weight: 500;
+}
+
+.form-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .form-section {
   flex: 1;
-  min-width: 300px;
-  max-width: 500px;
+  width: 100%;
+  min-width: 450px;
   background-color: #f3f5f1;
   padding: 30px;
   border-radius: 12px;
@@ -78,7 +69,8 @@ form .name-row {
   margin-bottom: 15px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   width: 100%;
   padding: 12px;
   margin-bottom: 15px;
@@ -107,4 +99,14 @@ button:hover {
   background-color: #0a2e21;
 }
 
- 
+.contact-last-1{
+  background-color: #ffeb69;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.contact-last-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
