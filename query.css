@@ -27,25 +27,69 @@
     }
 }
 
-@media only screen and (max-width:992px) {}
+@media only screen and (max-width:992px) {
+    .contact-last-1 img {
+        height: 71vh !important;
+    }
+}
 
 @media only screen and (max-width:768px) {}
 
 @media only screen and (max-width:576px) {
-    
-        .hero-heading {
-            font-size: 32px;
-        }
 
-        .hero-subtext {
-            font-size: 17px;
-        }
-    
-        .herobtn {
-            font-size: 17px;
-            font-weight: 500;
-            border-radius: 6px;
-            padding: 8px 15px;
-    
-        }
+    .hero-heading {
+        font-size: 32px !important;
+    }
+
+    .hero-subtext {
+        font-size: 17px !important;
+    }
+
+    .herobtn {
+        font-size: 17px !important;
+        font-weight: 500 !important;
+        border-radius: 6px !important;
+        padding: 8px 15px !important;
+
+    }
+
+    .form-section {
+        min-width: 330px !important;
+
+    }
+
+    .contact-last {
+        padding: 20px !important;
+    }
+
+    .contact-last-2 p {
+        text-align: justify !important;
+    }
+
+    .contact-last {
+        height: auto;
+    }
+
+    .contact-last-2 h3 {
+        font-size: 20px !important;
+        font-weight: 600 !important;
+
+    }
+
+    .contact-last-2 p {
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        line-height: 120% !important;
+
+    }
+
+    .contact-btn {
+        padding: 5px 12px !important;
+        font-size: 10px !important;
+        font-weight: 600 !important;
+    }
+
+    .contact-last-1 img {
+        height: 31vh !important;
+    }
 }

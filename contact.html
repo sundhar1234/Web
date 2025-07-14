@@ -19,46 +19,49 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg fixed-top navcolor p-3">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="./images/keyan.png" alt="logo" class="imgLogo" />
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-center flex-wrap w-100 gap-3">
-            <li class="nav-item">
-              <a class="nav-link active navlist" href="#">Home</a>
-            </li>
-            <li class="nav-item bg-success">
-              <a class="nav-link navlist" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navlist" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navlistbutton btn btn-dark " href="#">Contact </a>
-            </li>
-          </ul>
-          <hr style="margin: 0.5rem 0; height: 1px; background: #ccc; border: none;">
+  <section class="container fixed-top">
+    <nav class="navbar navbar-expand-lg  navcolor p-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./images/keyan.png" alt="logo" class="imgLogo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-wrap w-100 gap-3">
+              <li class="nav-item">
+                <a class="nav-link active navlist" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link navlist" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navlist" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navlistbutton btn btn-dark " href="./contact.html">Contact </a>
+              </li>
+            </ul>
+
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </section>
+
 
   <!--contact-->
 
-  <section class="container mt-5">
+  <section class="container mt-5 mb-5 pt-5">
     <div class="row mt-5">
-      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
-        <section>
+      <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 ">
+        <section class="contact-mobile">
           <div class="row">
             <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
               <div class="cards-contact">
@@ -85,19 +88,20 @@
           </div>
         </section>
       </div>
-      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
-        <section class="mt-2 form-info">
+      <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 ">
+        <section class="mt-2 form-info container">
           <div class="form-section">
-            <h2>Send us a message</h2>
+            <h2>Unleash Your Innovation Idea</h2>
             <form>
               <div class="name-row">
-                <input type="text" placeholder="First Name" required>
-                <input type="text" placeholder="Last Name" required>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email Address" required>
+
               </div>
-              <input type="email" placeholder="Email Address" required>
-              <input type="text" placeholder="Subject" required>
-              <textarea placeholder="Message" required></textarea>
-              <button type="submit">Send message</button>
+              <input type="number" placeholder="Number" required>
+              <input type="text" placeholder="Project Title" required>
+              <textarea placeholder="Project Description" required></textarea>
+              <button type="submit">Submit Idea</button>
             </form>
           </div>
         </section>
@@ -106,67 +110,36 @@
   </section>
 
 
+  <section class="px-4">
+    <section class="containers">
+      <section class="contact-last container mt-5">
+        <div class="row g-5">
+          <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 -col-sm-12 col-12">
+            <section class="contact-last-1">
+              <div class="contact-last-2">
+                <h3>Empowering Your Next Big Move</h3>
+                <p>Let’s bring your ideas to life with creativity, precision, and passion. We’re ready when you are —
+                  let’s
+                  build
+                  something remarkable together.</p>
 
-  <section class="contact-last">
-    <div class="row">
-      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 -col-sm-12 col-12">
-        <section class="contact-last-1">
-          <div class="contact-last-2">
-            <div class="icon">🎯</div>
-            <h3>Empowering Your Next Big Move</h3>
-            <p>Let’s bring your ideas to life with creativity, precision, and passion. We’re ready when you are — let’s
-              build
-              something remarkable together.</p>
+                <button><a href="">kayen@gmail.com</a></button>
+              </div>
+            </section>
           </div>
-        </section>
-      </div>
-      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 -col-sm-12 col-12">
-        <section class="contact-last-1">
-            <img src="" alt="">
-        </section>
-      </div>
-    </div>
+          <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 -col-sm-12 col-12">
+            <section class="contact-last-1">
+              <img src="./Photos/A12.png" alt="photo-contact">
+            </section>
+          </div>
+        </div>
+      </section>
+    </section>
+
   </section>
 
 
-
-
-  <!-- <section class="contact-container">
-    <div class="info-cards">
-      <div class="card">
-        <div class="icon">🔗</div>
-        <h3>Let’s Collaborate and Create Something Exceptional</h3>
-        <p>We’re here to bring your digital vision to life. Whether you’re looking to build a new solution, modernize an existing platform, or simply explore what’s possible—we’d love to connect. Reach out and let’s start shaping the future together.</p>
-      </div>
-
-         <div class="card">
-        <div class="icon">🚀</div>
-        <h3>Partner With Us to Build What’s Next</h3>
-        <p>Every great digital journey begins with the right collaboration. Whether you're exploring a bold new idea, seeking expert consultation, or ready to bring a project to life, we’re here to support you. Let’s connect and create innovative, future-ready solutions that move your business forward.</p>
-      </div>
-
-      <div class="card">
-        <div class="icon">🎯</div>
-        <h3>Empowering Your Next Big Move</h3>
-        <p>Let’s bring your ideas to life with creativity, precision, and passion. We’re ready when you are — let’s build something remarkable together.</p>
-      </div>
-    </div>
-
- <div class="form-section">
-      <h2>Send us a message</h2>
-      <form>
-        <div class="name-row">
-          <input type="text" placeholder="First Name" required>
-          <input type="text" placeholder="Last Name" required>
-        </div>
-        <input type="email" placeholder="Email Address" required>
-        <input type="text" placeholder="Subject" required>
-        <textarea placeholder="Message" required></textarea>
-        <button type="submit">Send message</button>
-      </form>
-    </div>
-  </section> -->
-
+  <hr>
   <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 

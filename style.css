@@ -1,20 +1,24 @@
 .navcolor {
-    background-color: #efeeeb;
+    background-color: #efeeeb !important;
     z-index: 999;
 }
+
 .imgLogo {
     height: 50px;
 }
+
 .navlist {
     color: #000;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
 }
+
 .navlist:hover {
     color: #183e35;
 }
+
 .navlistbutton {
-    font-size: 25px;
+    font-size: 20px;
     color: black;
     font-weight: 500;
     padding: 6px 14px;
@@ -22,6 +26,7 @@
     border-radius: 8px;
     border: 1px solid black;
 }
+
 .navlistbutton:hover {
     color: #183e35;
     border: 1px #183e35;
@@ -38,18 +43,21 @@
     justify-content: center;
     min-height: 90vh;
 }
+
 .hero-heading {
     font-size: 55px;
     font-weight: 700;
     color: #183e35;
     margin-bottom: 20px;
 }
+
 .hero-subtext {
     font-size: 26px;
     font-weight: 500;
     color: #555;
     margin: auto;
 }
+
 .herobtn {
     font-size: 26px;
     font-weight: 600;
@@ -60,16 +68,19 @@
     background-color: #183e35;
 
 }
+
 .herobtn:hover {
     background-color: #cff47b;
     color: #183e35;
     border-color: #183e35;
     transition: all 0.5s ease;
 }
+
 .sapnarrow {
     color: white;
     transition: all 0.3s ease;
 }
+
 .sapnarrow:hover {
     color: #183e35;
 }

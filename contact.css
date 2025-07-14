@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,8 +8,11 @@
 body {
   background-color: #fff;
   padding: 40px;
-}
+} */
 
+.navcolor {
+  background-color: white !important;
+}
 
 .cards-contact {
   border: 1px solid #eee;
@@ -75,7 +78,7 @@ form textarea {
   padding: 12px;
   margin-bottom: 15px;
   border: none;
-  border-radius: 20px;
+  border-radius: 12px;
   background-color: #d9e3df;
   font-size: 14px;
 }
@@ -99,14 +102,78 @@ button:hover {
   background-color: #0a2e21;
 }
 
-.contact-last-1{
-  background-color: #ffeb69;
-  border-radius: 5px;
+.contact-last {
+  background-color: #ffe16d;
+  border-radius: 25px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: auto;
+  padding: 40px;
 }
-.contact-last-2{
+
+.contact-last-1 {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.contact-last-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.contact-last-2 h3 {
+  letter-spacing: -0.5px;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 130%;
+  color: black;
+  text-align: justify;
+}
+
+.contact-last-2 p {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 170%;
+  max-width: 90%;
+  color: white;
+}
+
+.contact-last-2 button {
+  background-color: black;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+
+.contact-last-2 button a {
+  color: white;
+  text-decoration-line: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contact-btn {
+  background-color: black;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #333;
+  transform: scale(1.03);
+}
+
+.contact-last-1 img {
+  height: 43vh;
+  border-radius: 20px;
+  object-fit: contain;
 }
