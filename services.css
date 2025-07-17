@@ -1,0 +1,37 @@
+.exp-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-top: 100px;
+
+}
+
+.exp-1 h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #183e35;
+
+}
+
+.exp-1 h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #183e35;
+    margin-bottom: 15px;
+}
+
+.exp-1 p {
+    color: grey;
+    font-size: 18px;
+    width: 100%;
+    min-width: 600px;
+    text-align: center;
+}
+
+.exp-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
