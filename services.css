@@ -22,16 +22,154 @@
 }
 
 .exp-1 p {
-    color: grey;
     font-size: 18px;
-    width: 100%;
-    min-width: 600px;
-    text-align: center;
+    width: 80%;
+    text-align: justify;
+    margin-bottom: 20px;
 }
 
 .exp-2 {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
+}
+
+.exp-2 h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #183e35;
+    margin-bottom: 20px;
+}
+
+.exp-2 p {
+    font-size: 18px;
+    width: 80%;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.exp-2 img {
+    height: 70vh;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.exp-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.exp-3 h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #183e35;
+    margin-bottom: 20px;
+}
+
+.exp-3 p span {
+    color: #edd64f;
+    margin-right: 10px;
+}
+
+.exp-3 p {
+    font-size: 18px;
+    width: 85%;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.exp-4 h2 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #183e35;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+.exp-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.exp-5 h2 {
+    align-self: start;
+    font-size: 25px;
+    font-weight: 600;
+    color: #183e35;
+    margin-bottom: 20px;
+}
+
+.exp-5 p {
+    text-align: justify;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.exp-6 {
+    background-color: #F5DD90;
+    border-radius: 10px;
+
+}
+
+.expo {
+    align-self: start;
+    color: #F5DD90;
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+.exp-7 {
+    background: linear-gradient(to right, rgba(0, 0, 0, 2) -30%, rgba(0, 0, 0, 0.2) 90%, rgba(0, 0, 0, 1) 100%), url('./Photos/A17.jpg');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.exp-7 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.exp-8 {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.exp-8 h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.exp-8 p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }

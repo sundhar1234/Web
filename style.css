@@ -1,7 +1,7 @@
 /* navbar */
 
 .navcolor {
-    background-color: #efeeeb !important;
+    background-color: white !important;
     z-index: 999;
 }
 
@@ -48,7 +48,7 @@ nav a {
 .hero-Section {
     padding-top: 100px;
     padding-bottom: 1px;
-    background-color: #efeeeb;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,25 +102,12 @@ nav a {
     margin-bottom: 48px;
 }
 
-
-/* .tabs-we {
-    display: flex;
-    margin-bottom: 2rem;
-} */
-
 .tab-we-1 {
     cursor: pointer;
     font-size: 18px;
     font-weight: 600;
     color: #183e35;
 }
-
-
-/* 
-.tab-we.active {
-    text-underline-offset: 10px;
-    color: #183e35;
-} */
 
 .tab-content-1 {
     margin: 0 auto;
@@ -485,4 +472,9 @@ nav a {
     height: 40vh;
     border-radius: 10px;
     transform: translate(31%, 19%);
+}
+.last{
+    display: flex;
+        justify-content: center;
+        align-items: center;
 }

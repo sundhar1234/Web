@@ -88,6 +88,20 @@
     .about-5 {
         padding: 10px !important;
     }
+
+    /* s */
+    .exp-3 h2 {
+        font-size: 23px !important;
+    }
+
+    .exp-3 p {
+        font-size: 18px !important;
+        width: 85% !important;
+    }
+
+    .exp-4 h2 {
+        font-size: 23px !important;
+    }
 }
 
 @media only screen and (max-width:576px) {
@@ -320,5 +334,60 @@
 
     .innovation-section p {
         font-size: 0.8rem !important;
+    }
+
+    /* ss */
+
+    .exp-1 h2 {
+        font-size: 20px !important;
+
+    }
+
+    .exp-1 p {
+        font-size: 16px !important;
+    }
+
+    .exp-2 h2 {
+        font-size: 20px !important;
+    }
+
+    .exp-2 p {
+        font-size: 16px !important;
+    }
+
+    .exp-2 img {
+        height: 25vh !important;
+    }
+
+    .exp-3 h2 {
+        font-size: 16px !important;
+    }
+
+    .exp-3 p {
+        font-size: 16px !important;
+    }
+
+    .exp-4 h2 {
+        font-size: 20px !important;
+    }
+
+    .exp-5 h2 {
+        font-size: 20px !important;
+    }
+
+    .exp-5 p {
+        font-size: 12px !important;
+    }
+
+    .exp-8 h2 {
+        font-size: 20px !important;
+    }
+
+    .exp-8 p {
+        font-size: 16px !important;
+    }
+
+    .exp-9 {
+        padding: 10px;
     }
 }
