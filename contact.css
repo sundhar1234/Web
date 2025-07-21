@@ -1,15 +1,3 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", sans-serif;
-}
-
-body {
-  background-color: #fff;
-  padding: 40px;
-} */
-
 .navcolor {
   background-color: white !important;
 }
@@ -81,6 +69,7 @@ form textarea {
   border-radius: 12px;
   background-color: #F6FFE0;
   font-size: 14px;
+  font-weight: 500;
 }
 
 textarea {
@@ -93,7 +82,7 @@ button {
   color: white;
   border: none;
   padding: 12px 24px;
-  border-radius: 20px;
+  border-radius: 10px;
   cursor: pointer;
   transition: background0.3s;
 }
@@ -176,4 +165,25 @@ button:hover {
   height: 43vh;
   border-radius: 20px;
   object-fit: contain;
+}
+
+
+.popup {
+  visibility: hidden;
+  opacity: 1;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #e9bb06;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease;
+  z-index: 9999;
+}
+
+.popup.show {
+  visibility: visible;
+  opacity: 1;
 }

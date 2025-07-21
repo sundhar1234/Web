@@ -77,8 +77,14 @@ nav a {
     border-radius: 6px;
     padding: 10px 18px;
     border: 1px solid gray;
-    color: white;
+
     background-color: #183e35;
+}
+
+.herobtn a {
+    color: white;
+    font-size: 26px;
+    text-decoration-line: none;
 }
 
 .herobtn:hover {
@@ -473,8 +479,9 @@ nav a {
     border-radius: 10px;
     transform: translate(31%, 19%);
 }
-.last{
+
+.last {
     display: flex;
-        justify-content: center;
-        align-items: center;
+    justify-content: center;
+    align-items: center;
 }
