@@ -6,7 +6,10 @@
 }
 
 .imgLogo {
-    height: 50px;
+    background: #183e35;
+    height: 59px;
+    border-radius: 10px;
+
 }
 
 .navlist {
@@ -251,6 +254,7 @@ nav a {
 
 .features-section {
     background-color: #ceec9d;
+    border-radius: 10px;
 }
 
 .feature-box {

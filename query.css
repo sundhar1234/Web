@@ -105,6 +105,11 @@
 }
 
 @media only screen and (max-width:576px) {
+    .imgLogo {
+        height: 59px !important;
+        border-radius: 10px !important;
+
+    }
 
     .hero-heading {
         font-size: 32px !important;
@@ -281,6 +286,12 @@
         font-weight: 500 !important;
         line-height: 1 !important;
         margin-bottom: 10px !important;
+    }
+
+    .testimonial-img {
+        width: 244px !important;
+        height: 160px !important;
+
     }
 
     .quote {
